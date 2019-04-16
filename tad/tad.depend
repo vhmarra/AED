@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1555442221 source:/home/vh/Desktop/AED/tad/Racional.c
+	<stdio.h>
+	<stdlib.h>
+	"Racional.h"
+
+1555441860 /home/vh/Desktop/AED/tad/Racional.h
+
+1555440103 source:/home/vh/Desktop/AED/tad/usuario.c
+	<stdio.h>
+	<stdlib.h>
+	"Racional.h"
+
+1555453594 source:c:\users\vhmar\desktop\aed\tad\racional.c
+	<stdio.h>
+	<stdlib.h>
+	"Racional.h"
+
+1555453676 c:\users\vhmar\desktop\aed\tad\racional.h
+
