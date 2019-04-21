@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1555882159 source:c:\users\vhmar\desktop\aed\lista_nao_ordenada_acesso_encadeado\usuario.c
+	<stdio.h>
+	<stdlib.h>
+
+1555882771 source:c:\users\vhmar\desktop\aed\lista_nao_ordenada_acesso_encadeado\funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+
+1555882829 c:\users\vhmar\desktop\aed\lista_nao_ordenada_acesso_encadeado\funcoes.h
+
