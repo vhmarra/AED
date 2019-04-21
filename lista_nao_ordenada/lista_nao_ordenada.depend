@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1555853851 source:c:\users\vhmar\desktop\aed\lista_nao_ordenada\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+
+1555851817 c:\users\vhmar\desktop\aed\lista_nao_ordenada\funcoes.h
+
+1555853708 source:c:\users\vhmar\desktop\aed\lista_nao_ordenada\funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+
