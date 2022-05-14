@@ -154,8 +154,21 @@ void ex9() {
     printf("nome maiusculo = %s",name);
 }
 
-//TODO FACO A MINIMA IDEIA DE COMO FAZ
-void ex10() {}
+//ISSO TA INCOMPLETO
+void ex10() {
+    int rows = 6;
+    int columns = 6;
+    int i,j=0;
+    int vector[rows][columns];
+
+    for(i=0;i<rows;i++) {
+        for(j=0;j<columns;j++) {
+            scanf("%d",&vector[i][j]);
+        }
+    }
+
+
+}
 
 struct address {
     char street_name[50];
@@ -176,9 +189,22 @@ struct data {
     struct address user_address;
 };
 
-//TODO
+//ISSO TA INCOMPLETO
 void ex11() {
-
+    int persons = 1;
+    struct data agenda[persons];
+    for(int i=0;i<persons;i++) {
+        printf("Entre com o nome: ");
+        scanf("%[^\n]s",&agenda[i].name);
+        scanf("Entre com o email: ");
+        scanf("%[^\n]s",&agenda[i].email);
+        printf("Entre com o numero de telefone: ");
+        scanf("%[^\n]s",&agenda[i].phone_number);
+        printf("Entre com o aniversario: ");
+        scanf("%[^\n]s",&agenda[i].birthday);
+        printf("Entre com uma observacao adicional: ");
+        scanf("%[^\n]s",&agenda[i].obs);
+    }
 }
 
 int main() {
@@ -192,5 +218,6 @@ int main() {
 //    }
     //ex8();
     //ex9();
+    ex11();
 }
 
