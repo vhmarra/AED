@@ -17,6 +17,11 @@ struct populacao {
 };
 typedef struct populacao populacao;
 typedef struct individuo individuo;
+void print_aptidao(struct individuo *individuo) {
+    for (int i=0; i < POPULATION_SIZE; ++i) {
+        printf("individuo -> %d aptidao relativa -> %f\n",i+1,individuo[i].aptidao_relativa);
+    }
+}
 
 int main() {
     float apt = 0.0;
@@ -35,12 +40,11 @@ int main() {
     for (int i=0;i<POPULATION_SIZE;++i) {
         individuo[i].aptidao_relativa = individuo[i].aptidao_abs/apt;
     }
-    for (int i=0;i<POPULATION_SIZE;++i) {
-        printf("individuo -> %d aptidao relativa -> %f\n",i+1,individuo[i].aptidao_relativa);
-    }
-
+    print_aptidao(individuo);
     return 0;
 }
+
+
 
 float generate_random() {
     float number = (float)rand() /(float)(RAND_MAX)*10.0;
@@ -50,3 +54,6 @@ float generate_random() {
 int generate_binary() {
     return rand() % 2;
 }
+
+
+
