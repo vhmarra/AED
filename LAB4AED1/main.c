@@ -4,11 +4,11 @@
 int main() {
     pt *p;
     p = generate();
-
-    if(set_pto(p,1.0,1.0,1.0,1.0) == 1) {
-        printf("Pontos setados sucesso");
+    int veri = set_pto(p,13.0,1.0,1.0,1.0);
+    if(veri) {
+        printf("Pontos setados sucesso\n");
     } else {
-        printf("Erro ao setar pontos");
+        printf("Erro ao setar pontos\n");
         return -1;
     }
 

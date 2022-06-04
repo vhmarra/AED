@@ -20,13 +20,13 @@ struct pt {
     return p;
 }
 
-int set_pto(pt *pt , int X1,int X2,int Y1,int Y2) {
-    if(pt == NULL) return 0;
+int set_pto(pt *P , double X1,double X2,double Y1,double Y2) {
+    if(P == NULL) return 0;
     else {
-        pt->x1 = X1;
-        pt->x2 = X2;
-        pt->y2 = Y2;
-        pt->y1 = Y1;
+        P->x1 = X1;
+        P->x2 = X2;
+        P->y2 = Y2;
+        P->y1 = Y1;
         return 1;
     }
 }
