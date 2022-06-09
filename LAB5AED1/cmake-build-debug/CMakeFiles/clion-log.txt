@@ -1,0 +1,4 @@
+"/Users/victor/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/victor/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S "/Users/victor/Desktop/Estudos e UFU/2022-1/AED1/LAB5AED1" -B "/Users/victor/Desktop/Estudos e UFU/2022-1/AED1/LAB5AED1/cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/victor/Desktop/Estudos e UFU/2022-1/AED1/LAB5AED1/cmake-build-debug

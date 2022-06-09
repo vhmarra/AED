@@ -1,0 +1,3 @@
+/Users/victor/Desktop/Estudos e UFU/2022-1/AED1/LAB5AED1/cmake-build-debug/CMakeFiles/LAB5AED1.dir
+/Users/victor/Desktop/Estudos e UFU/2022-1/AED1/LAB5AED1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/victor/Desktop/Estudos e UFU/2022-1/AED1/LAB5AED1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
