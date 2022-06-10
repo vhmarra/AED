@@ -61,6 +61,12 @@ build CMakeFiles/LAB5AED1.dir/ListaSequencialEstatica.c.o: C_COMPILER__LAB5AED1_
   OBJECT_DIR = CMakeFiles/LAB5AED1.dir
   OBJECT_FILE_DIR = CMakeFiles/LAB5AED1.dir
 
+build CMakeFiles/LAB5AED1.dir/Bebidas.c.o: C_COMPILER__LAB5AED1_Debug /Users/victor/Desktop/Estudos$ e$ UFU/2022-1/AED1/LAB5AED1/Bebidas.c || cmake_object_order_depends_target_LAB5AED1
+  DEP_FILE = CMakeFiles/LAB5AED1.dir/Bebidas.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/LAB5AED1.dir
+  OBJECT_FILE_DIR = CMakeFiles/LAB5AED1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LAB5AED1
@@ -69,7 +75,7 @@ build CMakeFiles/LAB5AED1.dir/ListaSequencialEstatica.c.o: C_COMPILER__LAB5AED1_
 #############################################
 # Link the executable LAB5AED1
 
-build LAB5AED1: C_EXECUTABLE_LINKER__LAB5AED1_Debug CMakeFiles/LAB5AED1.dir/main.c.o CMakeFiles/LAB5AED1.dir/ListaSequencialEstatica.c.o
+build LAB5AED1: C_EXECUTABLE_LINKER__LAB5AED1_Debug CMakeFiles/LAB5AED1.dir/main.c.o CMakeFiles/LAB5AED1.dir/ListaSequencialEstatica.c.o CMakeFiles/LAB5AED1.dir/Bebidas.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/LAB5AED1.dir
   POST_BUILD = :
